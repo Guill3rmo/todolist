@@ -1,0 +1,19 @@
+
+<p id="notice"><%= notice %></p>
+
+
+
+<%= link_to "New task" , new_task_path , id:"new_link", remote: true%>
+
+
+<h3>Pending tasks</h3>
+<div class="tasks" id="pending_tasks">
+
+   <p><%= render @incomplete_tasks %></p>
+
+</div>
+
+<h3>Complete tasks</h3>
+<div class="tasks" id="complete_tasks">
+<p><%= render @complete_tasks %><p>
+</div>
