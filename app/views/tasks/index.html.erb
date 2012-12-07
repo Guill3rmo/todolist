@@ -12,3 +12,17 @@
 <div class="tasks" id="complete_tasks">
   <li><%= render @complete_tasks %></li>
 </div>
+
+<p> Add this to your application view </p>
+
+  <div style="text-align:center;">
+    <a href="#" onclick="$('#widget-code').show();$('#widget-code input').focus();return false;">
+      Add this badge to your blog &dArr;
+    </a>
+  </div>
+  <div id="widget-code">
+    Just copy and paste this code:
+    <input style="width:98%" type="text" value=" <script src='http://localhost:3000/widgets/show.js'></script> " />
+  </div>
+
+ 
