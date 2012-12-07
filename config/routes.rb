@@ -2,6 +2,8 @@ Mytasks::Application.routes.draw do
 
 
   resources :tasks , only: [:index, :new , :create , :destroy, :update] 
+  resources :widgets , only: [:show]
+  #get "widgets/show"
   
   root :to => "tasks#index"
   # The priority is based upon order of creation:

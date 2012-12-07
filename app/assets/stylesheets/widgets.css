@@ -1,0 +1,23 @@
+// Place all the styles related to the widgets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.widget-ilove {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-size: 10px !important;
+  text-align: center !important;
+  width: 70px !important;
+  height: 70px !important;
+  border: 1px solid #ccc !important;
+  padding: 0px 3px 3px 3px !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  margin-bottom: 5px !important }
+.widget-ilove .heart { color:red !important; font-size: 42px !important }
+.widget-ilove a {
+    font-weight: bold !important;
+    color: Black !important;
+    text-decoration: none !important; }
+.widget-ilove:hover { background-color: #ffe !important }
+.widget-ilove .line1 { font-size: 36px !important }
+.widget-ilove .line2 { font-size: 12px !important }
