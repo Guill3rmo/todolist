@@ -1,7 +1,7 @@
 Mytasks::Application.routes.draw do
 
 
-  resources :tasks
+  resources :tasks , only: [:index, :new , :create , :destroy, :update] 
   
   root :to => "tasks#index"
   # The priority is based upon order of creation:
